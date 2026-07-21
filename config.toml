@@ -4,54 +4,7 @@ parallel-jobs = 1
 [YouTube]
 enabled = true
 build-mode = "module"
-upstream = "revanced-extended"
-exclude = [
-  "theme",
-  "hide-shorts-button",
-  "hide-shorts-components",
-  "hide-shorts-navigation-button",
-  "hide-ads",
-  "hide-album-cards",
-  "hide-autoplay-button",
-  "hide-breaking-news-shelf",
-  "hide-button-labels",
-  "hide-buttons",
-  "hide-captions-button",
-  "hide-cast-button",
-  "hide-category-bar",
-  "hide-channel-avatar",
-  "hide-channel-watermark",
-  "hide-comment-component",
-  "hide-community-posts",
-  "hide-crowdfunding-box",
-  "hide-filter-bar",
-  "hide-floating-action-button",
-  "hide-flyout-panel",
-  "hide-game-card",
-  "hide-info-cards",
-  "hide-layout-components",
-  "hide-load-more-button",
-  "hide-mix-playlists",
-  "hide-music-button",
-  "hide-navigation-label",
-  "hide-player-overlay",
-  "hide-playlist-cards",
-  "hide-reels",
-  "hide-results-components",
-  "hide-scrollbar",
-  "hide-seek-message",
-  "hide-snackbars",
-  "hide-speed-dialog",
-  "hide-suggested-actions",
-  "hide-suggested-video",
-  "hide-timestamp",
-  "hide-tooltip",
-  "hide-trending-searches",
-  "hide-video-cards",
-  "hide-voice-search-button",
-  "custom-branding",
-  "custom-video-speed",
-  "custom-playback-speed",
-  "navigation-buttons",
-  "tablet-navigation-bar"
-]
+upstream = "revanced"
+version = "auto"
+excluded-patches = []
+included-patches = ["'Video ads'", "'Background play'"]
